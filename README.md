@@ -7,6 +7,7 @@ This is a React component that provides a dynamic form builder with various inpu
 - **React**: A JavaScript library for building user interfaces.
 - **Formik**: A popular open-source library for building forms in React applications. It provides a simple and scalable way to handle form state management, validation, and submission.
 - **Styled Components**: A CSS-in-JS library that allows you to write actual CSS code to style React components.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
 
 ## Form Configuration
 
