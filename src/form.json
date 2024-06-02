@@ -1,0 +1,81 @@
+[
+  {
+    "id": "name",
+    "name": "Name",
+    "type": "text",
+    "required": true,
+    "regex": "^[A-Za-z ]+$"
+  },
+  {
+    "id": "email",
+    "name": "Email",
+    "type": "text",
+    "required": true,
+    "regex": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+  },
+  {
+    "id": "phone",
+    "name": "Phone Number",
+    "type": "number",
+    "required": true,
+    "regex": "^\\d{10}$"
+  },
+  {
+    "id": "password",
+    "name": "Password",
+    "type": "password",
+    "required": true,
+    "regex": "^[A-Za-z0-9]{8,}$"
+  },
+  {
+    "id": "country",
+    "name": "Country",
+    "type": "select",
+    "required": true,
+    "multiSelect": false,
+    "options": [
+      {"label": "India", "value": "india"},
+      {"label": "United States", "value": "us"},
+      {"label": "United Kingdom", "value": "uk"},
+      {"label": "Australia", "value": "australia"},
+      {"label": "Canada", "value": "canada"},
+      {"label": "Germany", "value": "germany"},
+      {"label": "France", "value": "france"},
+      {"label": "China", "value": "china"},
+      {"label": "Japan", "value": "japan"},
+      {"label": "South Korea", "value": "south_korea"},
+      {"label": "Brazil", "value": "brazil"}
+    ]
+  },
+  {
+    "id": "gender",
+    "name": "Gender",
+    "type": "radio",
+    "required": true,
+    "options": [
+      {"label": "Male", "value": "male"},
+      {"label": "Female", "value": "female"},
+      {"label": "Others", "value": "others"}
+    ]
+  },
+  {
+    "id": "interests",
+    "name": "Interests",
+    "type": "checkbox",
+    "required": true,
+    "options": [
+      {"label": "Music", "value": "music"},
+      {"label": "Games", "value": "games"},
+      {"label": "Workout", "value": "workout"},
+      {"label": "Sports", "value": "sports"},
+      {"label": "Investment", "value": "investment"}
+    ]
+  },
+  {
+    "id": "file",
+    "name": "Upload File",
+    "type": "file",
+    "required": false,
+    "accept": ".jpg,.jpeg,.png,.pdf"
+  }
+]
